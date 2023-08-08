@@ -3,9 +3,9 @@ provider "aws" {
 	access_key = "AKIAUVGNFZFGZWCLJTOW"
 	secret_key     = "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"
 }
-variable "name" {
-  default = "rajartechdev"
+variable "ami" {
+  default = "ami-0763cf792771fe1bd"
 }
-variable "name" {
-  default = "rajartechdev"
+variable "instance_type" {
+  default = "t2.micro"
 }
